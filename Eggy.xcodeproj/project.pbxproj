@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F32E2FF1ADD8E8C000F6051 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E2FE1ADD8E8C000F6051 /* egg.png */; };
+		9F32E3071ADDC3C3000F6051 /* hatched.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3001ADDC3C3000F6051 /* hatched.png */; };
+		9F32E3081ADDC3C3000F6051 /* cracked.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3011ADDC3C3000F6051 /* cracked.png */; };
+		9F32E3091ADDC3C3000F6051 /* hartslag.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3021ADDC3C3000F6051 /* hartslag.png */; };
+		9F32E30A1ADDC3C3000F6051 /* tray.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3031ADDC3C3000F6051 /* tray.png */; };
+		9F32E30B1ADDC3C3000F6051 /* fertile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3041ADDC3C3000F6051 /* fertile.png */; };
+		9F32E30C1ADDC3C3000F6051 /* eggs.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3051ADDC3C3000F6051 /* eggs.png */; };
+		9F32E30D1ADDC3C3000F6051 /* egg26.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F32E3061ADDC3C3000F6051 /* egg26.png */; };
 		9FDC187C1AD975A800DD288D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC187B1AD975A800DD288D /* AppDelegate.swift */; };
 		9FDC187E1AD975A800DD288D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC187D1AD975A800DD288D /* ViewController.swift */; };
 		9FDC18811AD975A800DD288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC187F1AD975A800DD288D /* Main.storyboard */; };
 		9FDC18831AD975A800DD288D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC18821AD975A800DD288D /* Images.xcassets */; };
 		9FDC18861AD975A800DD288D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC18841AD975A800DD288D /* LaunchScreen.xib */; };
 		9FDC18921AD975A800DD288D /* EggyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC18911AD975A800DD288D /* EggyTests.swift */; };
+		9FDC189C1AD9D0DD00DD288D /* myEggModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC189B1AD9D0DD00DD288D /* myEggModel.swift */; };
+		9FDC189F1AD9D2B400DD288D /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC189D1AD9D2B400DD288D /* display.png */; };
+		9FDC18A01AD9D2B400DD288D /* keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC189E1AD9D2B400DD288D /* keypad.png */; };
+		9FDC18A21AD9D39600DD288D /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC18A11AD9D39600DD288D /* AppIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F32E2FE1ADD8E8C000F6051 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		9F32E3001ADDC3C3000F6051 /* hatched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hatched.png; sourceTree = "<group>"; };
+		9F32E3011ADDC3C3000F6051 /* cracked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cracked.png; sourceTree = "<group>"; };
+		9F32E3021ADDC3C3000F6051 /* hartslag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hartslag.png; sourceTree = "<group>"; };
+		9F32E3031ADDC3C3000F6051 /* tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray.png; sourceTree = "<group>"; };
+		9F32E3041ADDC3C3000F6051 /* fertile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fertile.png; sourceTree = "<group>"; };
+		9F32E3051ADDC3C3000F6051 /* eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggs.png; sourceTree = "<group>"; };
+		9F32E3061ADDC3C3000F6051 /* egg26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg26.png; sourceTree = "<group>"; };
 		9FDC18761AD975A800DD288D /* Eggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDC187A1AD975A800DD288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDC187B1AD975A800DD288D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +56,10 @@
 		9FDC188B1AD975A800DD288D /* EggyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDC18901AD975A800DD288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDC18911AD975A800DD288D /* EggyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggyTests.swift; sourceTree = "<group>"; };
+		9FDC189B1AD9D0DD00DD288D /* myEggModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myEggModel.swift; sourceTree = "<group>"; };
+		9FDC189D1AD9D2B400DD288D /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
+		9FDC189E1AD9D2B400DD288D /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		9FDC18A11AD9D39600DD288D /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +104,15 @@
 				9FDC187B1AD975A800DD288D /* AppDelegate.swift */,
 				9FDC187D1AD975A800DD288D /* ViewController.swift */,
 				9FDC187F1AD975A800DD288D /* Main.storyboard */,
+				9F32E3001ADDC3C3000F6051 /* hatched.png */,
+				9F32E3011ADDC3C3000F6051 /* cracked.png */,
+				9F32E3021ADDC3C3000F6051 /* hartslag.png */,
+				9F32E3031ADDC3C3000F6051 /* tray.png */,
+				9F32E3041ADDC3C3000F6051 /* fertile.png */,
+				9F32E3051ADDC3C3000F6051 /* eggs.png */,
+				9F32E3061ADDC3C3000F6051 /* egg26.png */,
+				9F32E2FE1ADD8E8C000F6051 /* egg.png */,
+				9FDC189B1AD9D0DD00DD288D /* myEggModel.swift */,
 				9FDC18821AD975A800DD288D /* Images.xcassets */,
 				9FDC18841AD975A800DD288D /* LaunchScreen.xib */,
 				9FDC18791AD975A800DD288D /* Supporting Files */,
@@ -90,6 +123,9 @@
 		9FDC18791AD975A800DD288D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FDC189E1AD9D2B400DD288D /* keypad.png */,
+				9FDC18A11AD9D39600DD288D /* AppIcon.png */,
+				9FDC189D1AD9D2B400DD288D /* display.png */,
 				9FDC187A1AD975A800DD288D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +228,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDC18A01AD9D2B400DD288D /* keypad.png in Resources */,
+				9F32E30B1ADDC3C3000F6051 /* fertile.png in Resources */,
+				9F32E2FF1ADD8E8C000F6051 /* egg.png in Resources */,
+				9FDC189F1AD9D2B400DD288D /* display.png in Resources */,
+				9F32E3091ADDC3C3000F6051 /* hartslag.png in Resources */,
+				9FDC18A21AD9D39600DD288D /* AppIcon.png in Resources */,
 				9FDC18811AD975A800DD288D /* Main.storyboard in Resources */,
+				9F32E30D1ADDC3C3000F6051 /* egg26.png in Resources */,
+				9F32E30C1ADDC3C3000F6051 /* eggs.png in Resources */,
 				9FDC18861AD975A800DD288D /* LaunchScreen.xib in Resources */,
+				9F32E30A1ADDC3C3000F6051 /* tray.png in Resources */,
+				9F32E3081ADDC3C3000F6051 /* cracked.png in Resources */,
 				9FDC18831AD975A800DD288D /* Images.xcassets in Resources */,
+				9F32E3071ADDC3C3000F6051 /* hatched.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDC189C1AD9D0DD00DD288D /* myEggModel.swift in Sources */,
 				9FDC187E1AD975A800DD288D /* ViewController.swift in Sources */,
 				9FDC187C1AD975A800DD288D /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Eggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Eggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +459,7 @@
 				9FDC18971AD975A800DD288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FDC18981AD975A800DD288D /* Build configuration list for PBXNativeTarget "EggyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +468,7 @@
 				9FDC189A1AD975A800DD288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
